@@ -1,7 +1,6 @@
 import Navbar from "./components/layout/Navbar";
 import Footer from "./components/layout/Footer";
 import Body from "./components/layout/Body";
-import { Fragment } from "react";
 import "./App.css";
 
 function App() {

@@ -3,7 +3,7 @@ import icon from "./praxisLogo.png";
 
 function Navbar() {
   return (
-    <nav class="navbar navbar-light bg-primary d-flex">
+    <nav class="navbar navbar-light bg-azul d-flex text-white">
       <div class="container-fluid">
         <a className="navbar-brand" href>
           {/*   <img
@@ -13,7 +13,7 @@ function Navbar() {
             height="40"
             className="d-inline-block align-text-top me-2"
           ></img> */}
-          <b className="align-middle">Blog</b>
+          <b className="align-middle text-white">Blog</b>
         </a>
         <div>Iniciar Sección</div>
       </div>
