@@ -7,10 +7,7 @@ function Footer() {
       <div className="row">
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 pb-3 mb-0 my-4 border-top">
           <div class="col-md-4 d-flex align-items-center">
-            <a
-              href="/"
-              class="me-2 mb-md-0 text-muted text-decoration-none lh-1"
-            >
+            <a href class="me-2 mb-md-0 text-muted text-decoration-none lh-1">
               <img src={icon} width="24" alt="Icon" className="ms-2"></img>
             </a>
             <span class="text-muted">&copy; 2021 Grupo Sanus, SRL</span>

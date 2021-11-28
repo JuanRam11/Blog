@@ -1,16 +1,23 @@
+import Homepage from "./components/pages/Homepage";
 import Navbar from "./components/layout/Navbar";
-import Footer from "./components/layout/Footer";
-import Body from "./components/layout/Body";
+import Admin from "./components/pages/Admin";
+import NotFound from "./components/pages/NotFound";
 import "./App.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Login from "./components/pages/Login";
 
-function App() {
+const App = () => {
   return (
-    <div className="vh-100">
+    <Router>
       <Navbar />
-      <Body />
-      <Footer />
-    </div>
+      <Routes>
+        <Route exact path="/" element={<Homepage />} />
+        <Route exact path="/login" element={<Login />} />
+        <Route exact path="/admin" element={<Admin />} />
+        <Route exact path="*" element={<NotFound />} />
+      </Routes>
+    </Router>
   );
-}
+};
 
 export default App;

@@ -1,11 +1,12 @@
 import React from "react";
 import icon from "./praxisLogo.png";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
     <nav class="navbar navbar-light bg-azul d-flex text-white">
       <div class="container-fluid">
-        <a className="navbar-brand" href>
+        <Link className="navbar-brand" to="/">
           {/*   <img
             src={icon}
             alt=""
@@ -14,8 +15,14 @@ function Navbar() {
             className="d-inline-block align-text-top me-2"
           ></img> */}
           <b className="align-middle text-white">Blog</b>
-        </a>
-        <div>Iniciar Sección</div>
+        </Link>
+        <Link
+          to="/login"
+          className="text-white"
+          style={{ textDecoration: "none" }}
+        >
+          Iniciar Sección
+        </Link>
       </div>
     </nav>
   );
