@@ -1,4 +1,10 @@
-React Blog app template with login, main page and not found page.
+## React Blog app template with login, main page and not found page.
+
+# How you install it
+
+First to run this project you would need to download this code, after that, you open it with you favorite Code Editor, in my case I use VS code that already has a
+terminal, if you editor doesn't have a terminal, you will have to open terminal from the current directory of the proejct or get there using paths, aftewards you will need to run npm install
+to install all dependencies from this project and then you can run npm start and that's it.
 
 
 # Getting Started with Create React App
