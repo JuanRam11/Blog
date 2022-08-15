@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
-    <nav class='navbar navbar-light bg-azul d-flex text-white'>
-      <div class='container-fluid'>
+    <nav className='navbar navbar-light bg-azul d-flex text-white'>
+      <div className='container-fluid'>
         <Link className='navbar-brand' to='/'>
           {/*   <img
             src={icon}
