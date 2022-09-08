@@ -15,7 +15,7 @@ function Footer() {
               <img width='24' alt='Icon' className='ms-2'></img>
             </a>
             <span className='text-muted'>
-              &copy; {year.getFullYear()} Grupo Sanus, SRL
+              &copy; {year.getFullYear()} *Nombre empresa*,
             </span>
           </div>
 
